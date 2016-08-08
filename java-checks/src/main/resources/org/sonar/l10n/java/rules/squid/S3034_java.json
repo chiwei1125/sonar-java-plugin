@@ -1,0 +1,13 @@
+{
+  "title": "Raw byte values should not be used in bitwise operations in combination with shifts",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

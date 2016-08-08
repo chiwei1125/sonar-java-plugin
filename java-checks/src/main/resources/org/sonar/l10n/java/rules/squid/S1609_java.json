@@ -1,0 +1,12 @@
+{
+  "title": "@FunctionalInterface annotation should be used to flag Single Abstract Method interfaces",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "java8"
+  ],
+  "defaultSeverity": "Minor"
+}

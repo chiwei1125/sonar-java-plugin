@@ -1,0 +1,12 @@
+{
+  "title": "Public methods should throw at most one checked exception",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "error-handling"
+  ],
+  "defaultSeverity": "Major"
+}

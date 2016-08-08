@@ -1,0 +1,15 @@
+{
+  "title": "Only standard cryptographic algorithms should be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1d"
+  },
+  "tags": [
+    "cwe",
+    "security",
+    "owasp-a6",
+    "sans-top25-porous"
+  ],
+  "defaultSeverity": "Blocker"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Functions should not be defined with a variable number of arguments",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "misra",
+    "cert",
+    "pitfall"
+  ],
+  "defaultSeverity": "Info"
+}

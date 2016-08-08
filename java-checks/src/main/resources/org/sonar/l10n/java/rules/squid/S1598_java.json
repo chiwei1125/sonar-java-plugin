@@ -1,0 +1,12 @@
+{
+  "title": "Package declaration should match source file directory",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

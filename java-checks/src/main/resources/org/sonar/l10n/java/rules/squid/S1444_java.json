@@ -1,0 +1,14 @@
+{
+  "title": "\"public static\" fields should be constant",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "security",
+    "cert"
+  ],
+  "defaultSeverity": "Critical"
+}

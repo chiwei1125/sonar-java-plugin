@@ -1,0 +1,13 @@
+{
+  "title": "\"deleteOnExit\" should not be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "performance",
+    "bug"
+  ],
+  "defaultSeverity": "Minor"
+}

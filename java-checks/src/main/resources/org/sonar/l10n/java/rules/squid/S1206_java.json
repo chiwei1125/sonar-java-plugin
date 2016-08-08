@@ -1,0 +1,14 @@
+{
+  "title": "\"equals(Object obj)\" and \"hashCode()\" should be overridden in pairs",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cwe",
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Minor"
+}

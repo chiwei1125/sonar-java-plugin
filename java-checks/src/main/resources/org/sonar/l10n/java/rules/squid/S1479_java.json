@@ -1,0 +1,12 @@
+{
+  "title": "\"switch\" statements should not have too many \"case\" clauses",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "brain-overload"
+  ],
+  "defaultSeverity": "Major"
+}

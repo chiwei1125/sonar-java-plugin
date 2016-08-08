@@ -1,0 +1,9 @@
+{
+  "title": "Custom resources should be closed",
+  "status": "ready",
+  "tags": [
+    "security",
+    "denial-of-service"
+  ],
+  "defaultSeverity": "Critical"
+}

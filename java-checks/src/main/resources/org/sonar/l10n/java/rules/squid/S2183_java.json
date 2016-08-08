@@ -1,0 +1,13 @@
+{
+  "title": "Ints and longs should not be shifted by zero or more than their number of bits-1",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Minor"
+}

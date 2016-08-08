@@ -1,0 +1,14 @@
+{
+  "title": "\"runFinalizersOnExit\" should not be called",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "security",
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Critical"
+}

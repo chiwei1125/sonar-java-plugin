@@ -1,0 +1,12 @@
+{
+  "title": "\"static\" members should be accessed statically",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

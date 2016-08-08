@@ -1,0 +1,13 @@
+{
+  "title": "\"ConcurrentLinkedQueue.size()\" should not be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "security",
+    "performance"
+  ],
+  "defaultSeverity": "Critical"
+}

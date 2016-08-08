@@ -1,0 +1,14 @@
+{
+  "title": "\"Lock\" objects should not be \"synchronized\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "multi-threading",
+    "cert",
+    "clumsy"
+  ],
+  "defaultSeverity": "Major"
+}

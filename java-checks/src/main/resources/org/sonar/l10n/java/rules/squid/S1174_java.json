@@ -1,0 +1,13 @@
+{
+  "title": "\"Object.finalize()\" should remain protected (versus public) when overriding",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cwe",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

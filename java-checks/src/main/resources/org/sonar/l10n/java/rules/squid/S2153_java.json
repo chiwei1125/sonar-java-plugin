@@ -1,0 +1,12 @@
+{
+  "title": "Boxing and unboxing should not be immediately reversed",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "clumsy"
+  ],
+  "defaultSeverity": "Major"
+}

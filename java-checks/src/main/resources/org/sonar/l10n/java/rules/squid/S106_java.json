@@ -1,0 +1,13 @@
+{
+  "title": "Standard outputs should not be used directly to log anything",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "bad-practice",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Enumeration should not be implemented",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "obsolete"
+  ],
+  "defaultSeverity": "Major"
+}

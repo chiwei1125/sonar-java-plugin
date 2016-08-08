@@ -1,0 +1,12 @@
+{
+  "title": "An abstract class should have both abstract and concrete methods",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "defaultSeverity": "Minor"
+}

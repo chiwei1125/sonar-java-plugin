@@ -1,0 +1,14 @@
+{
+  "title": "Exception types should not be tested using \"instanceof\" in catch blocks",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "error-handling",
+    "cert",
+    "clumsy"
+  ],
+  "defaultSeverity": "Major"
+}

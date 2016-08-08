@@ -1,0 +1,12 @@
+{
+  "title": "The diamond operator (\"<>\") should be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "clumsy"
+  ],
+  "defaultSeverity": "Major"
+}

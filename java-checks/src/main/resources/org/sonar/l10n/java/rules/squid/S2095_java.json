@@ -1,0 +1,17 @@
+{
+  "title": "Resources should be closed",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "leak",
+    "security",
+    "denial-of-service",
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Blocker"
+}

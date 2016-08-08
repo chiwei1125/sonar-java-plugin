@@ -1,0 +1,13 @@
+{
+  "title": "Deprecated elements should have both the annotation and the Javadoc tag",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "obsolete",
+    "bad-practice"
+  ],
+  "defaultSeverity": "Major"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "security",
+    "owasp-a6",
+    "sans-top25-porous",
+    "owasp-a5"
+  ],
+  "defaultSeverity": "Critical"
+}

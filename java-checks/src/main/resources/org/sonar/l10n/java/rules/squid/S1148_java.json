@@ -1,0 +1,13 @@
+{
+  "title": "Throwable.printStackTrace(...) should not be called",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "error-handling",
+    "security"
+  ],
+  "defaultSeverity": "Critical"
+}

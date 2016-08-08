@@ -1,0 +1,13 @@
+{
+  "title": "Synchronized classes Vector, Hashtable, Stack and StringBuffer should not be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "performance",
+    "bug"
+  ],
+  "defaultSeverity": "Major"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Tests should include assertions",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "tests"
+  ],
+  "defaultSeverity": "Critical"
+}

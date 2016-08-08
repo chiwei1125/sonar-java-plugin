@@ -1,0 +1,12 @@
+{
+  "title": "Boolean checks should not be inverted",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor"
+}

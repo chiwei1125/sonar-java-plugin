@@ -1,0 +1,15 @@
+{
+  "title": "Pseudorandom number generators (PRNGs) should not be used in secure contexts",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cwe",
+    "security",
+    "cert",
+    "owasp-a6"
+  ],
+  "defaultSeverity": "Critical"
+}

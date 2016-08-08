@@ -1,0 +1,12 @@
+{
+  "title": "Silly math should not be performed",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "clumsy"
+  ],
+  "defaultSeverity": "Major"
+}

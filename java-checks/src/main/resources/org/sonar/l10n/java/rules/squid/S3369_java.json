@@ -1,0 +1,16 @@
+{
+  "title": "Security constraints should be defined",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "3h"
+  },
+  "tags": [
+    "cwe",
+    "websphere",
+    "security",
+    "jee",
+    "owasp-a7"
+  ],
+  "defaultSeverity": "Critical"
+}

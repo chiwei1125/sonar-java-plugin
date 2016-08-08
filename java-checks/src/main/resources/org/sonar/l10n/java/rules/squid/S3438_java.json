@@ -1,0 +1,13 @@
+{
+  "title": "\"SingleConnectionFactory\" instances should be set to \"reconnectOnException\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "spring",
+    "bug"
+  ],
+  "defaultSeverity": "Major"
+}

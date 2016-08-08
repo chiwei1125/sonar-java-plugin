@@ -1,0 +1,13 @@
+{
+  "title": "Non-serializable objects should not be stored in \"HttpSession\" objects",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "bug"
+  ],
+  "defaultSeverity": "Major"
+}

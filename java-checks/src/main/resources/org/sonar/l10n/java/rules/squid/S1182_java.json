@@ -1,0 +1,13 @@
+{
+  "title": "Classes that override \"clone\" should be \"Cloneable\" and call \"super.clone()\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

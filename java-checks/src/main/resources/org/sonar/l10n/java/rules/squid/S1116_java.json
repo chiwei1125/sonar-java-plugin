@@ -1,0 +1,14 @@
+{
+  "title": "Empty statements should be removed",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "misra",
+    "cert",
+    "unused"
+  ],
+  "defaultSeverity": "Minor"
+}

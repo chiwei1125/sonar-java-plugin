@@ -1,0 +1,13 @@
+{
+  "title": "\"main\" should not \"throw\" anything",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "error-handling",
+    "security"
+  ],
+  "defaultSeverity": "Critical"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Utility classes should not have public constructors",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "design"
+  ],
+  "defaultSeverity": "Major"
+}

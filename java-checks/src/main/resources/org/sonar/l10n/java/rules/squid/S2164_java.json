@@ -1,0 +1,13 @@
+{
+  "title": "Math should not be performed on floats",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Minor"
+}

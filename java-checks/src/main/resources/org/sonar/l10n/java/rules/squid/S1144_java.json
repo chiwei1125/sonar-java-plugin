@@ -1,0 +1,13 @@
+{
+  "title": "Unused \"private\" methods should be removed",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cert",
+    "unused"
+  ],
+  "defaultSeverity": "Major"
+}

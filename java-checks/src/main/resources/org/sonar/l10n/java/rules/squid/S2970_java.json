@@ -1,0 +1,12 @@
+{
+  "title": "Assertions should be complete",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "tests"
+  ],
+  "defaultSeverity": "Blocker"
+}

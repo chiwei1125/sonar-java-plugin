@@ -1,0 +1,13 @@
+{
+  "title": "The value returned from a stream read should be checked",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Minor"
+}

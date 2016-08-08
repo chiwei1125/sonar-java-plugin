@@ -1,0 +1,13 @@
+{
+  "title": "Non-serializable classes should not be written",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "serialization",
+    "bug"
+  ],
+  "defaultSeverity": "Major"
+}

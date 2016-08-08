@@ -1,0 +1,16 @@
+{
+  "title": "\"wait(...)\" should be used instead of \"Thread.sleep(...)\" when a lock is held",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "security",
+    "multi-threading",
+    "performance",
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Blocker"
+}

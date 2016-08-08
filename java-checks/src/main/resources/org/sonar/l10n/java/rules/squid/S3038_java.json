@@ -1,0 +1,12 @@
+{
+  "title": "Abstract methods should not be redundant",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "confusing"
+  ],
+  "defaultSeverity": "Major"
+}

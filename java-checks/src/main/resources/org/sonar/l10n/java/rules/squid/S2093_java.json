@@ -1,0 +1,13 @@
+{
+  "title": "Try-with-resources should be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cert",
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

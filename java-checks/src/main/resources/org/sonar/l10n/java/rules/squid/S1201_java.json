@@ -1,0 +1,12 @@
+{
+  "title": "Methods named \"equals\" should override Object.equals(Object)",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "suspicious"
+  ],
+  "defaultSeverity": "Major"
+}

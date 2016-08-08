@@ -1,0 +1,12 @@
+{
+  "title": "Class variable fields should not have public accessibility",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cwe"
+  ],
+  "defaultSeverity": "Major"
+}

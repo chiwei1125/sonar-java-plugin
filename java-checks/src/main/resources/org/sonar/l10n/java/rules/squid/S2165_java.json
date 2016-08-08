@@ -1,0 +1,13 @@
+{
+  "title": "\"finalize\" should not set fields to \"null\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "performance",
+    "clumsy"
+  ],
+  "defaultSeverity": "Major"
+}

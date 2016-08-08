@@ -1,0 +1,13 @@
+{
+  "title": "JUnit assertions should not be used in \"run\" methods",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "tests",
+    "bug"
+  ],
+  "defaultSeverity": "Critical"
+}

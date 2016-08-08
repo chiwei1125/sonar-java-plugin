@@ -1,0 +1,13 @@
+{
+  "title": "pom elements should be in the recommended order",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "convention",
+    "maven"
+  ],
+  "defaultSeverity": "Minor"
+}

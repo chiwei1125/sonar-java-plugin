@@ -1,0 +1,12 @@
+{
+  "title": "Annotation arguments should appear in the order in which they were declared",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "defaultSeverity": "Minor"
+}

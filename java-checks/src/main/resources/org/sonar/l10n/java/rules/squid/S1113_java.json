@@ -1,0 +1,14 @@
+{
+  "title": "The Object.finalize() method should not be overriden",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "bug",
+    "unpredictable",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

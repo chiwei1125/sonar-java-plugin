@@ -1,0 +1,12 @@
+{
+  "title": "\"NullPointerException\" should not be explicitly thrown",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

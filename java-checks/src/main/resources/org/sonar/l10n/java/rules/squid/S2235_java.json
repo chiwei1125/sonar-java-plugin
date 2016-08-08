@@ -1,0 +1,13 @@
+{
+  "title": "IllegalMonitorStateException should not be caught",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "multi-threading",
+    "bug"
+  ],
+  "defaultSeverity": "Critical"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "\"Threads\" should not be used where \"Runnables\" are expected",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "multi-threading",
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

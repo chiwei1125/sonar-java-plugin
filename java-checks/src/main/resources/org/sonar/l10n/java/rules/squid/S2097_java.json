@@ -1,0 +1,12 @@
+{
+  "title": "\"equals(Object obj)\" should test argument type",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug"
+  ],
+  "defaultSeverity": "Minor"
+}

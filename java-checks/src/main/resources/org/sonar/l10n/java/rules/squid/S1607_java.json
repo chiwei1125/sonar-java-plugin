@@ -1,0 +1,13 @@
+{
+  "title": "Tests should not be ignored",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "tests",
+    "suspicious"
+  ],
+  "defaultSeverity": "Major"
+}

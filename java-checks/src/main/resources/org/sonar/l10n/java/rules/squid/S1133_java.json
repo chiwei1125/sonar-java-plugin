@@ -1,0 +1,12 @@
+{
+  "title": "Deprecated code should be removed eventually",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "obsolete"
+  ],
+  "defaultSeverity": "Info"
+}

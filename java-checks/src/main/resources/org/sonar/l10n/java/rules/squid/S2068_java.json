@@ -1,0 +1,16 @@
+{
+  "title": "Credentials should not be hard-coded",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "cwe",
+    "security",
+    "cert",
+    "sans-top25-porous",
+    "owasp-a2"
+  ],
+  "defaultSeverity": "Critical"
+}

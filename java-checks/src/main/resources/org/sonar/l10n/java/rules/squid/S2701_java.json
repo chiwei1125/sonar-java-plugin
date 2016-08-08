@@ -1,0 +1,12 @@
+{
+  "title": "Literal boolean values should not be used in assertions",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "junit"
+  ],
+  "defaultSeverity": "Major"
+}

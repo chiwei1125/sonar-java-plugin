@@ -1,0 +1,12 @@
+{
+  "title": "Primitives should not be boxed just for \"String\" conversion",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "performance"
+  ],
+  "defaultSeverity": "Major"
+}

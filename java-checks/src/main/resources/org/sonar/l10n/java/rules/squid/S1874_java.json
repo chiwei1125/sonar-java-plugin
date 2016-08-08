@@ -1,0 +1,14 @@
+{
+  "title": "\"@Deprecated\" code should not be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cwe",
+    "obsolete",
+    "cert"
+  ],
+  "defaultSeverity": "Minor"
+}

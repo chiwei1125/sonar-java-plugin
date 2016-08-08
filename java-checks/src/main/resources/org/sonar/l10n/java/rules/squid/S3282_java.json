@@ -1,0 +1,12 @@
+{
+  "title": "EJB interceptor exclusions should be declared as annotations",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

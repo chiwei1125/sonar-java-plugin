@@ -1,0 +1,13 @@
+{
+  "title": "Exception classes should be immutable",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "error-handling",
+    "bug"
+  ],
+  "defaultSeverity": "Minor"
+}

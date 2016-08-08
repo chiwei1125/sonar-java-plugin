@@ -1,0 +1,12 @@
+{
+  "title": "\"@Override\" annotation should be used on any method overriding (since Java 5) or implementing (since Java 6) another one",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bad-practice"
+  ],
+  "defaultSeverity": "Major"
+}

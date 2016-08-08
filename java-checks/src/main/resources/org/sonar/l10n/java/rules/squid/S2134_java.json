@@ -1,0 +1,14 @@
+{
+  "title": "Classes extending java.lang.Thread should override the \"run\" method",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "multi-threading",
+    "bug",
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Case insensitive string comparisons should be made without intermediate upper or lower casing",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "clumsy"
+  ],
+  "defaultSeverity": "Major"
+}

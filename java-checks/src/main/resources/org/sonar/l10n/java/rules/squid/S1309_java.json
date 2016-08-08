@@ -1,0 +1,12 @@
+{
+  "title": "The @SuppressWarnings annotation should not be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    
+  ],
+  "defaultSeverity": "Info"
+}

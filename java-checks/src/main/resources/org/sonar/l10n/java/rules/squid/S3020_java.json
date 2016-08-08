@@ -1,0 +1,12 @@
+{
+  "title": "\"toArray\" should be passed an array of the proper type",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug"
+  ],
+  "defaultSeverity": "Minor"
+}

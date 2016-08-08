@@ -1,0 +1,12 @@
+{
+  "title": "\"Iterator.hasNext()\" should not call \"Iterator.next()\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "bug"
+  ],
+  "defaultSeverity": "Major"
+}

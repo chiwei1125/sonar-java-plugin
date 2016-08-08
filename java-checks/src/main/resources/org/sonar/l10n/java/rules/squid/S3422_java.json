@@ -1,0 +1,13 @@
+{
+  "title": "Dependencies should not have \"system\" scope",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "maven",
+    "lock-in"
+  ],
+  "defaultSeverity": "Major"
+}

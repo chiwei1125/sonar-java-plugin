@@ -1,0 +1,12 @@
+{
+  "title": "Public types, methods and fields (API) should be documented with Javadoc",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "convention"
+  ],
+  "defaultSeverity": "Minor"
+}

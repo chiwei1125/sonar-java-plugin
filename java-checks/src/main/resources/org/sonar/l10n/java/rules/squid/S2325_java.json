@@ -1,0 +1,12 @@
+{
+  "title": "\"private\" methods that don't access instance data should be \"static\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor"
+}

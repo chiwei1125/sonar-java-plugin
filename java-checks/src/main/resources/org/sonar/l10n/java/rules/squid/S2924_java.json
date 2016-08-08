@@ -1,0 +1,13 @@
+{
+  "title": "JUnit rules should be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "tests",
+    "unused"
+  ],
+  "defaultSeverity": "Major"
+}

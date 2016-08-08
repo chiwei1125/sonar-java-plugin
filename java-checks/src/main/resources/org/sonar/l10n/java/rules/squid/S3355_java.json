@@ -1,0 +1,14 @@
+{
+  "title": "Web applications should use validation filters",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "owasp-a1",
+    "security",
+    "injection"
+  ],
+  "defaultSeverity": "Critical"
+}

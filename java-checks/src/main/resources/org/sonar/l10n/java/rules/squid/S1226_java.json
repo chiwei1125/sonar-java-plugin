@@ -1,0 +1,13 @@
+{
+  "title": "Method parameters, caught exceptions and foreach variables should not be reassigned",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "misra",
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor"
+}

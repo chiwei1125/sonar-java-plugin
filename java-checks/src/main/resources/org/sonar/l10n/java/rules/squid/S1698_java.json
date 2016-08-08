@@ -1,0 +1,13 @@
+{
+  "title": "Objects should be compared with \"equals()\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "cwe",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

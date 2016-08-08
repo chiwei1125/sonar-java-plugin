@@ -1,0 +1,13 @@
+{
+  "title": "Default EJB interceptors should be declared in \"ejb-jar.xml\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "security",
+    "bug"
+  ],
+  "defaultSeverity": "Blocker"
+}

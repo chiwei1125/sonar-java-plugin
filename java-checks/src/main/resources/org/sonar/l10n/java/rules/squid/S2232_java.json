@@ -1,0 +1,14 @@
+{
+  "title": "\"ResultSet.isLast()\" should not be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "performance",
+    "pitfall",
+    "sql"
+  ],
+  "defaultSeverity": "Major"
+}

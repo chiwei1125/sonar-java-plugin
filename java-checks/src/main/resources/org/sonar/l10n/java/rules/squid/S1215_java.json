@@ -1,0 +1,14 @@
+{
+  "title": "Execution of the Garbage Collector should be triggered only by the JVM",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "bug",
+    "unpredictable",
+    "bad-practice"
+  ],
+  "defaultSeverity": "Major"
+}

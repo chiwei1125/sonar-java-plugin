@@ -1,0 +1,14 @@
+{
+  "title": "Classes should not be loaded dynamically",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "45min"
+  },
+  "tags": [
+    "cwe",
+    "owasp-a1",
+    "security"
+  ],
+  "defaultSeverity": "Critical"
+}

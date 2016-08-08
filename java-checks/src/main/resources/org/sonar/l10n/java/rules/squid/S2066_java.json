@@ -1,0 +1,14 @@
+{
+  "title": "\"Serializable\" inner classes of non-serializable classes should be \"static\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "serialization",
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Minor"
+}

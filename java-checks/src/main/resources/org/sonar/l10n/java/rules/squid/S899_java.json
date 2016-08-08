@@ -1,0 +1,16 @@
+{
+  "title": "Return values should not be ignored when they contain the operation status code",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cwe",
+    "error-handling",
+    "security",
+    "misra",
+    "cert"
+  ],
+  "defaultSeverity": "Critical"
+}

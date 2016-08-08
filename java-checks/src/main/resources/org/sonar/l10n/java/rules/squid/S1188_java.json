@@ -1,0 +1,12 @@
+{
+  "title": "Lambdas and anonymous classes should not have too many lines",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "java8"
+  ],
+  "defaultSeverity": "Major"
+}

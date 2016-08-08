@@ -1,0 +1,13 @@
+{
+  "title": "Lazy initialization of \"static\" fields should be \"synchronized\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "multi-threading",
+    "bug"
+  ],
+  "defaultSeverity": "Major"
+}

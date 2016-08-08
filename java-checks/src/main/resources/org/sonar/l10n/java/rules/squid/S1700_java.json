@@ -1,0 +1,12 @@
+{
+  "title": "A field should not duplicate the name of its containing class",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "brain-overload"
+  ],
+  "defaultSeverity": "Major"
+}

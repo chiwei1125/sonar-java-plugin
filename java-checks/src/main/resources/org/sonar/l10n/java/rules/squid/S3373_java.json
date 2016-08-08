@@ -1,0 +1,14 @@
+{
+  "title": "\"action\" mappings should not have too many \"forward\" entries",
+  "status": "ready",
+  "remediation": {
+    "func": "Linear",
+    "linearDesc": "per extra forward",
+    "linearFactor": "20min"
+  },
+  "tags": [
+    "brain-overload",
+    "struts"
+  ],
+  "defaultSeverity": "Major"
+}

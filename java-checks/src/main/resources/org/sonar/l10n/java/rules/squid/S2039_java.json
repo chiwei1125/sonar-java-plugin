@@ -1,0 +1,12 @@
+{
+  "title": "Member variable visibility should be specified",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "security"
+  ],
+  "defaultSeverity": "Critical"
+}

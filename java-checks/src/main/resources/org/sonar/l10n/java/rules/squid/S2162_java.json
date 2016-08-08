@@ -1,0 +1,13 @@
+{
+  "title": "\"equals\" methods should be symmetric and work for subclasses",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Minor"
+}

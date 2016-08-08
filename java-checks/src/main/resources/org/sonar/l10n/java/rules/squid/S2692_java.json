@@ -1,0 +1,12 @@
+{
+  "title": "\"indexOf\" checks should not be for positive numbers",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "suspicious"
+  ],
+  "defaultSeverity": "Major"
+}

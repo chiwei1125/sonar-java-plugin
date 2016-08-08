@@ -1,0 +1,14 @@
+{
+  "title": "The Object.finalize() method should not be called",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "security",
+    "cert"
+  ],
+  "defaultSeverity": "Critical"
+}

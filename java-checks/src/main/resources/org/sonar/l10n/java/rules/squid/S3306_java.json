@@ -1,0 +1,13 @@
+{
+  "title": "Constructor injection should be used instead of field injection",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "design",
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

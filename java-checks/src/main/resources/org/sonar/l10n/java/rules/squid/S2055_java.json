@@ -1,0 +1,13 @@
+{
+  "title": "The non-serializable super class of a \"Serializable\" class should have a no-argument constructor",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "serialization",
+    "bug"
+  ],
+  "defaultSeverity": "Minor"
+}

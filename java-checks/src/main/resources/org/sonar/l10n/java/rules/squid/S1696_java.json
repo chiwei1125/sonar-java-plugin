@@ -1,0 +1,14 @@
+{
+  "title": "\"NullPointerException\" should not be caught",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "error-handling",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "\"@NonNull\" values should not be set to null",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "bug"
+  ],
+  "defaultSeverity": "Minor"
+}

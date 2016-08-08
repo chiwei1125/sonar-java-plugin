@@ -1,0 +1,13 @@
+{
+  "title": "Methods \"wait(...)\", \"notify()\" and \"notifyAll()\" should not be called on Thread instances",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "multi-threading",
+    "bug"
+  ],
+  "defaultSeverity": "Blocker"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Maps with keys that are enum values should be replaced with EnumMap",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "performance"
+  ],
+  "defaultSeverity": "Major"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Null pointers should not be dereferenced",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cwe",
+    "security",
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

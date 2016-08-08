@@ -1,0 +1,14 @@
+{
+  "title": "Return values should not be ignored when function calls don't have any side effects",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "bug",
+    "misra",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

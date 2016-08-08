@@ -1,0 +1,14 @@
+{
+  "title": "Multiple variables should not be declared on the same line",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "convention",
+    "misra",
+    "cert"
+  ],
+  "defaultSeverity": "Minor"
+}

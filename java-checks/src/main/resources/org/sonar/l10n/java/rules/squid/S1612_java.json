@@ -1,0 +1,12 @@
+{
+  "title": "Lambdas should be replaced with method references",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "java8"
+  ],
+  "defaultSeverity": "Minor"
+}

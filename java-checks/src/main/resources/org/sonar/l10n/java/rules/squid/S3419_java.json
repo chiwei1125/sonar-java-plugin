@@ -1,0 +1,13 @@
+{
+  "title": "Group ids should follow a naming convention",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "convention",
+    "maven"
+  ],
+  "defaultSeverity": "Minor"
+}

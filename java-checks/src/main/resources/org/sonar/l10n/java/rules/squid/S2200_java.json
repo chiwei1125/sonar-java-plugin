@@ -1,0 +1,13 @@
+{
+  "title": "\"compareTo\" results should not be checked for specific values",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug",
+    "unpredictable"
+  ],
+  "defaultSeverity": "Minor"
+}

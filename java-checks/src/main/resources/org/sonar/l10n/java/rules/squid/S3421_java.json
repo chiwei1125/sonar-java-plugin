@@ -1,0 +1,13 @@
+{
+  "title": "Deprecated \"${pom}\" properties should not be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "maven",
+    "obsolete"
+  ],
+  "defaultSeverity": "Major"
+}

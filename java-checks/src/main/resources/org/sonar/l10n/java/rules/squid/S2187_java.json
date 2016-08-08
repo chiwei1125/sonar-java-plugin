@@ -1,0 +1,14 @@
+{
+  "title": "TestCases should contain tests",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "tests",
+    "unused",
+    "confusing"
+  ],
+  "defaultSeverity": "Major"
+}

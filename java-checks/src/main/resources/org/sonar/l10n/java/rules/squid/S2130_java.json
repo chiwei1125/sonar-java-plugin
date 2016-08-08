@@ -1,0 +1,12 @@
+{
+  "title": "Parsing should be used to convert \"Strings\" to primitives",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "performance"
+  ],
+  "defaultSeverity": "Major"
+}

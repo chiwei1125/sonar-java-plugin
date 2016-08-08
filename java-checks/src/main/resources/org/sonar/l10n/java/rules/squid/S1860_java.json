@@ -1,0 +1,14 @@
+{
+  "title": "Synchronization should not be based on Strings or boxed primitives",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "multi-threading",
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

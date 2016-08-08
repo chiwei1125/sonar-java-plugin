@@ -1,0 +1,13 @@
+{
+  "title": "\"PreparedStatement\" and \"ResultSet\" methods should be called with valid indices",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "bug",
+    "sql"
+  ],
+  "defaultSeverity": "Blocker"
+}

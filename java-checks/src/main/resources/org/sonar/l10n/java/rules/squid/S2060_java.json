@@ -1,0 +1,12 @@
+{
+  "title": "\"Externalizable\" classes should have no-arguments constructors",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "bug"
+  ],
+  "defaultSeverity": "Major"
+}

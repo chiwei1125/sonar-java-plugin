@@ -1,0 +1,12 @@
+{
+  "title": "The signature of \"finalize()\" should match that of \"Object.finalize()\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

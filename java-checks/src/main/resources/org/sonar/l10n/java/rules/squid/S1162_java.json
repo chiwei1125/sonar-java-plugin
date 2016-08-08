@@ -1,0 +1,12 @@
+{
+  "title": "Checked exceptions should not be thrown",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1h"
+  },
+  "tags": [
+    "error-handling"
+  ],
+  "defaultSeverity": "Major"
+}

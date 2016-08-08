@@ -1,0 +1,12 @@
+{
+  "title": "Empty arrays and collections should be returned instead of null",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

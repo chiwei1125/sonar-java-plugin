@@ -1,0 +1,14 @@
+{
+  "title": "\"notifyAll\" should be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "multi-threading",
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Major"
+}

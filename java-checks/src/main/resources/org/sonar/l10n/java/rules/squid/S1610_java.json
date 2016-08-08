@@ -1,0 +1,12 @@
+{
+  "title": "Abstract classes without fields should be converted to interfaces",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "java8"
+  ],
+  "defaultSeverity": "Major"
+}

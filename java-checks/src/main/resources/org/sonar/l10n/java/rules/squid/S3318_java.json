@@ -1,0 +1,13 @@
+{
+  "title": "Untrusted data should not be stored in sessions",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "security"
+  ],
+  "defaultSeverity": "Critical"
+}

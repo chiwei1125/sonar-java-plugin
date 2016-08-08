@@ -1,0 +1,13 @@
+{
+  "title": "\"toString()\" and \"clone()\" methods should not return null",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "bug"
+  ],
+  "defaultSeverity": "Major"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Throwable and Error should not be caught",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "error-handling",
+    "security",
+    "cert"
+  ],
+  "defaultSeverity": "Blocker"
+}

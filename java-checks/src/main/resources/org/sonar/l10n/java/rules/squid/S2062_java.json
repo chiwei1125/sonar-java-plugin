@@ -1,0 +1,12 @@
+{
+  "title": "\"readResolve\" methods should be inheritable",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

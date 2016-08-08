@@ -1,0 +1,12 @@
+{
+  "title": "Collection.isEmpty() should be used to test for emptiness",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "clumsy"
+  ],
+  "defaultSeverity": "Major"
+}

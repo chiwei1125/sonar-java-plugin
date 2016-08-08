@@ -1,0 +1,14 @@
+{
+  "title": "\"Serializable\" inner classes of \"Serializable\" classes should be static",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "serialization",
+    "cert",
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

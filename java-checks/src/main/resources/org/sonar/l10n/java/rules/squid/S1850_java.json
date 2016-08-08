@@ -1,0 +1,13 @@
+{
+  "title": "\"instanceof\" operators that always return \"true\" or \"false\" should be removed",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "suspicious"
+  ],
+  "defaultSeverity": "Major"
+}

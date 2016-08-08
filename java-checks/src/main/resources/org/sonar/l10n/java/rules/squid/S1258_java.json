@@ -1,0 +1,12 @@
+{
+  "title": "Classes and enums with private members should have a constructor",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

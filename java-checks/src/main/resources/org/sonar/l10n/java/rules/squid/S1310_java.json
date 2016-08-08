@@ -1,0 +1,12 @@
+{
+  "title": "\"NOPMD\" suppression comments should not be used",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "bad-practice"
+  ],
+  "defaultSeverity": "Minor"
+}

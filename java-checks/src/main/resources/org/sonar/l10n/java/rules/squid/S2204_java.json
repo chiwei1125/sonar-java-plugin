@@ -1,0 +1,13 @@
+{
+  "title": "\".equals()\" should not be used to test the values of \"Atomic\" classes",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "multi-threading",
+    "bug"
+  ],
+  "defaultSeverity": "Major"
+}

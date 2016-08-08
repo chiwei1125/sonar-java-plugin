@@ -1,0 +1,13 @@
+{
+  "title": "Local variables should not shadow class fields",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cert",
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

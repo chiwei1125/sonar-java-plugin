@@ -1,0 +1,13 @@
+{
+  "title": "\"toString()\" should never be called on a String object",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "finding",
+    "clumsy"
+  ],
+  "defaultSeverity": "Minor"
+}

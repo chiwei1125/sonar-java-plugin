@@ -1,0 +1,12 @@
+{
+  "title": "Copyright and license headers should be defined",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    
+  ],
+  "defaultSeverity": "Blocker"
+}

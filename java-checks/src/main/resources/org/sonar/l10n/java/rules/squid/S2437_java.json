@@ -1,0 +1,12 @@
+{
+  "title": "Silly bit operations should not be performed",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "suspicious"
+  ],
+  "defaultSeverity": "Major"
+}

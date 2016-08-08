@@ -1,0 +1,13 @@
+{
+  "title": "Floating point numbers should not be tested for equality",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug",
+    "misra"
+  ],
+  "defaultSeverity": "Major"
+}

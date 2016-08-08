@@ -1,0 +1,15 @@
+{
+  "title": "Struts validation forms should have unique names",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "security",
+    "bug",
+    "struts"
+  ],
+  "defaultSeverity": "Blocker"
+}

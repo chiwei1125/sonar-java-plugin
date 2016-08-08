@@ -1,0 +1,13 @@
+{
+  "title": "Loops should not be infinite",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "bug",
+    "cert"
+  ],
+  "defaultSeverity": "Blocker"
+}

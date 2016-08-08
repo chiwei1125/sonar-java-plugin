@@ -1,0 +1,13 @@
+{
+  "title": "Future keywords should not be used as names",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "obsolete",
+    "pitfall"
+  ],
+  "defaultSeverity": "Major"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Fields in non-serializable classes should not be \"transient\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "serialization",
+    "unused"
+  ],
+  "defaultSeverity": "Minor"
+}

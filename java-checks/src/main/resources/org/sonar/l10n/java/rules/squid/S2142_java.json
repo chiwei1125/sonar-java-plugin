@@ -1,0 +1,14 @@
+{
+  "title": "\"InterruptedException\" should not be ignored",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cwe",
+    "multi-threading",
+    "bug"
+  ],
+  "defaultSeverity": "Major"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "\"compareTo\" should not return \"Integer.MIN_VALUE\"",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug"
+  ],
+  "defaultSeverity": "Minor"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Math operands should be cast before assignment",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "cwe",
+    "bug",
+    "sans-top25-risky",
+    "cert"
+  ],
+  "defaultSeverity": "Minor"
+}

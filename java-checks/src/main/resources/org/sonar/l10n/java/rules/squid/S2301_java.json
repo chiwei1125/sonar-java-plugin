@@ -1,0 +1,12 @@
+{
+  "title": "Public methods should not contain selector arguments",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "design"
+  ],
+  "defaultSeverity": "Major"
+}
