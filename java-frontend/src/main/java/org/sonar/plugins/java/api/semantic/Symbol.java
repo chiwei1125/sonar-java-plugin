@@ -115,6 +115,8 @@ public interface Symbol {
   @Nullable
   Tree declaration();
 
+
+
   /**
    * Symbol for a type : class, enum, interface or annotation.
    */
@@ -150,6 +152,7 @@ public interface Symbol {
     @Nullable
     @Override
     ClassTree declaration();
+
 
   }
 

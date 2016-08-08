@@ -24,6 +24,8 @@ package org.sonar.plugins.java.api.semantic;
  */
 public interface Type {
 
+
+
   /**
    * Primitive java types.
    */
