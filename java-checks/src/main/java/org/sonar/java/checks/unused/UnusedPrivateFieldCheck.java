@@ -45,6 +45,7 @@ import org.sonar.plugins.java.api.tree.AnnotationTree;
 import org.sonar.plugins.java.api.semantic.Type;
 import org.sonar.java.model.AbstractTypedTree;
 
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -152,7 +153,7 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
 
   private boolean hasAnnotation(ModifiersTree modifiers, Set<String> annotationNames) {
     for (AnnotationTree annotation : modifiers.annotations()) {
-      Type annotationType = annotation.symbolType();
+      Type annotationType = ((AbstractTypedTree) annotation).symbolType();
       String annotationName = annotationType.fullyQualifiedName();
       if (annotationNames.contains(annotationName)) {
         return true;
@@ -160,7 +161,6 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
     }
     return false;
   }
-
 
   private void addAssignment(ExpressionTree tree) {
     ExpressionTree variable = ExpressionsHelper.skipParentheses(tree);
