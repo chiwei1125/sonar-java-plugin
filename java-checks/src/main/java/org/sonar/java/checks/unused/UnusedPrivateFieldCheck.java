@@ -154,7 +154,7 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
     if (tree.modifiers().annotations().isEmpty()) {
       Symbol symbol = tree.symbol();
       String name = symbol.name();
-      if (symbol.isPrivate() && !"serialVersionUID".equals(name) && symbol.usages().size() == assignments.get(symbol).size() && !hasExcludedAnnotation(tree)) {
+      if (symbol.isPrivate() && !"serialVersionUID".equals(name) && symbol.usages().size() == assignments.get(symbol).size() && hasExcludedAnnotation(tree)) {
         reportIssue(tree.simpleName(), "Remove this unused \"" + name + "\" private field.");
       }
     }
