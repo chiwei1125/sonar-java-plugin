@@ -42,8 +42,10 @@ public class LombokFilter extends BaseTreeVisitorIssueFilter {
     UtilityClassWithPublicConstructorCheck.class);
 
   private static final List<String> GENERATE_UNUSED_FIELD_RELATED_METHODS = ImmutableList.<String>builder()
+    .add("Getter")
     .add("lombok.Getter")
     .add("lombok.Setter")
+    .add("Setter")
     .add("lombok.Builder")
     .add("lombok.ToString")
     .add("lombok.AllArgsConstructor")
