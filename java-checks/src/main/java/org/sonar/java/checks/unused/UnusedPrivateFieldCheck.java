@@ -46,10 +46,7 @@ import org.sonar.plugins.java.api.semantic.Type;
 import org.sonar.java.model.AbstractTypedTree;
 
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 @Rule(key = "S1068")
 public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
@@ -155,8 +152,12 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
       Symbol symbol = tree.symbol();
       String name = symbol.name();
       if (symbol.isPrivate() && !"serialVersionUID".equals(name) && symbol.usages().size() == assignments.get(symbol).size() && !hasExcludedAnnotation(tree)) {
-        reportIssue(tree.simpleName(), "Remove this unused \"" + name + "\" private field. " + hasExcludedAnnotation(tree));
-      }
+        List<String> namesList = getNamesList(tree);
+        StringBuffer names = new StringBuffer();
+        for (int i = 0; i < namesList.size(); i++)
+          names.append(namesList.get(i));
+        reportIssue(tree.simpleName(), "Remove this unused \"" + name + "\" private field. " + names.toString());
+              }
     }
   }
 
@@ -177,6 +178,20 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
     return false;
   }
 
+  private List<String>  getNamesList(VariableTree tree){
+    ModifiersTree modifiers = tree.modifiers();
+    return getAnnotationName(modifiers, USED_FIELDS_ANNOTATIONS);
+  }
+
+  private List<String>  getAnnotationName(ModifiersTree modifiers, Set<String> annotationNames) {
+    List<String> namesList = new ArrayList<String>();
+    for (AnnotationTree annotation : modifiers.annotations()) {
+      Type annotationType = ((AbstractTypedTree) annotation).symbolType();
+      String annotationName = annotationType.fullyQualifiedName();
+      namesList.add(annotationName);
+    }
+    return namesList;
+  }
   private void addAssignment(ExpressionTree tree) {
     ExpressionTree variable = ExpressionsHelper.skipParentheses(tree);
     if (variable.is(Tree.Kind.IDENTIFIER)) {
