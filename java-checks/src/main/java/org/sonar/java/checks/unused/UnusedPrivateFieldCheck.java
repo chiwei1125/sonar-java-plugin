@@ -68,21 +68,21 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
     Tree.Kind.OR_ASSIGNMENT};
 
   private static final Set<String> USED_FIELDS_ANNOTATIONS = new HashSet<String>(Arrays.asList(
-          "lombok.Getter",
-          "lombok.Setter",
+          "@Getter",
+          "@Setter",
           "javax.enterprise.inject.Produces"));
 
   private static final Set<String> USED_TYPES_ANNOTATIONS = new HashSet<String>(Arrays.asList(
-          "lombok.Getter",
-          "lombok.Setter",
-          "lombok.Data",
-          "lombok.Value",
-          "lombok.Builder",
-          "lombok.ToString",
-          "lombok.EqualsAndHashCode",
-          "lombok.AllArgsConstructor",
-          "lombok.NoArgsConstructor",
-          "lombok.RequiredArgsConstructor"));
+          "@Getter",
+          "@Setter",
+          "@Data",
+          "@Value",
+          "@Builder",
+          "@ToString",
+          "@EqualsAndHashCode",
+          "@AllArgsConstructor",
+          "@NoArgsConstructor",
+          "@RequiredArgsConstructor"));
 
   private List<ClassTree> classes = Lists.newArrayList();
   private ListMultimap<Symbol, IdentifierTree> assignments = ArrayListMultimap.create();
