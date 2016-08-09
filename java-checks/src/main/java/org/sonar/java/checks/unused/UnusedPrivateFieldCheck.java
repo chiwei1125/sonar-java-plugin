@@ -70,14 +70,18 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
 
   private static final Set<String> USED_FIELDS_ANNOTATIONS = new HashSet<String>(Arrays.asList(
           "lombok.Getter",
+          "import lombok.Getter",
           "lombok.Setter",
+          "import lombok.Setter",
           "javax.enterprise.inject.Produces",
           "@Getter",
           "@Setter",
           "@Data"));
 
   private static final Set<String> USED_TYPES_ANNOTATIONS = new HashSet<String>(Arrays.asList(
+          "import lombok.Getter",
           "lombok.Getter",
+          "import lombok.Setter",
           "lombok.Setter",
           "lombok.Data",
           "lombok.Value",
