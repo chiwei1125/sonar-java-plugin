@@ -71,7 +71,11 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
   private static final Set<String> USED_FIELDS_ANNOTATIONS = new HashSet<String>(Arrays.asList(
           "lombok.Getter",
           "lombok.Setter",
-          "javax.enterprise.inject.Produces"));
+          "javax.enterprise.inject.Produces",
+          "@Getter",
+          "@Setter",
+          "@Data"));
+
   private static final Set<String> USED_TYPES_ANNOTATIONS = new HashSet<String>(Arrays.asList(
           "lombok.Getter",
           "lombok.Setter",
@@ -82,7 +86,10 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
           "lombok.EqualsAndHashCode",
           "lombok.AllArgsConstructor",
           "lombok.NoArgsConstructor",
-          "lombok.RequiredArgsConstructor"));
+          "lombok.RequiredArgsConstructor",
+          "@Getter",
+          "@Setter",
+          "@Data"));
 
   private List<ClassTree> classes = Lists.newArrayList();
   private ListMultimap<Symbol, IdentifierTree> assignments = ArrayListMultimap.create();
