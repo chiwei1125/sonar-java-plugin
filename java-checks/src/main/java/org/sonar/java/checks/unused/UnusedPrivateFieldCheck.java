@@ -156,7 +156,7 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
         StringBuffer names = new StringBuffer();
         for (int i = 0; i < namesList.size(); i++)
           names.append(namesList.get(i));
-        reportIssue(tree.simpleName(), "Remove this unused \"" + name + "\" private field. " + names.toString());
+        reportIssue(tree.simpleName(), "Remove this unused \"" + name + "\" private field. " + names.toString() + namesList.get(0));
               }
     }
   }
