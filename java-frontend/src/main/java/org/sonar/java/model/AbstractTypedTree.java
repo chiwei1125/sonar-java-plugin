@@ -56,4 +56,5 @@ public abstract class AbstractTypedTree extends JavaTree {
     this.type = type;
   }
 
+
 }

@@ -40,8 +40,15 @@ import org.sonar.plugins.java.api.tree.Modifier;
 import org.sonar.plugins.java.api.tree.Tree;
 import org.sonar.plugins.java.api.tree.Tree.Kind;
 import org.sonar.plugins.java.api.tree.VariableTree;
+import org.sonar.plugins.java.api.tree.ModifiersTree;
+import org.sonar.plugins.java.api.tree.AnnotationTree;
+import org.sonar.plugins.java.api.semantic.Type;
+import org.sonar.java.model.AbstractTypedTree;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Rule(key = "S1068")
 public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
@@ -59,6 +66,22 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
     Tree.Kind.AND_ASSIGNMENT,
     Tree.Kind.XOR_ASSIGNMENT,
     Tree.Kind.OR_ASSIGNMENT};
+
+  private static final Set<String> USED_FIELDS_ANNOTATIONS = new HashSet<String>(Arrays.asList(
+          "lombok.Getter",
+          "lombok.Setter",
+          "javax.enterprise.inject.Produces"));
+  private static final Set<String> USED_TYPES_ANNOTATIONS = new HashSet<String>(Arrays.asList(
+          "lombok.Getter",
+          "lombok.Setter",
+          "lombok.Data",
+          "lombok.Value",
+          "lombok.Builder",
+          "lombok.ToString",
+          "lombok.EqualsAndHashCode",
+          "lombok.AllArgsConstructor",
+          "lombok.NoArgsConstructor",
+          "lombok.RequiredArgsConstructor"));
 
   private List<ClassTree> classes = Lists.newArrayList();
   private ListMultimap<Symbol, IdentifierTree> assignments = ArrayListMultimap.create();
@@ -102,9 +125,11 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
   }
 
   private void checkClassFields(ClassTree classTree) {
-    for (Tree member : classTree.members()) {
-      if (member.is(Tree.Kind.VARIABLE)) {
-        checkIfUnused((VariableTree) member);
+    if (!hasAnnotation(classTree.modifiers(), USED_TYPES_ANNOTATIONS)) {
+      for (Tree member : classTree.members()) {
+        if (member.is(Tree.Kind.VARIABLE)) {
+          checkIfUnused((VariableTree) member);
+        }
       }
     }
   }
@@ -113,11 +138,29 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
     if (tree.modifiers().annotations().isEmpty()) {
       Symbol symbol = tree.symbol();
       String name = symbol.name();
-      if (symbol.isPrivate() && !"serialVersionUID".equals(name) && symbol.usages().size() == assignments.get(symbol).size()) {
+      if (symbol.isPrivate() && !"serialVersionUID".equals(name) && symbol.usages().size() == assignments.get(symbol).size() && !hasExcludedAnnotation(tree)) {
         reportIssue(tree.simpleName(), "Remove this unused \"" + name + "\" private field.");
       }
     }
   }
+
+
+  private boolean hasExcludedAnnotation(VariableTree tree) {
+  ModifiersTree modifiers = tree.modifiers();
+  return hasAnnotation(modifiers, USED_FIELDS_ANNOTATIONS);
+  }
+
+  private boolean hasAnnotation(ModifiersTree modifiers, Set<String> annotationNames) {
+    for (AnnotationTree annotation : modifiers.annotations()) {
+      Type annotationType = annotation.symbolType();
+      String annotationName = annotationType.fullyQualifiedName();
+      if (annotationNames.contains(annotationName)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
 
   private void addAssignment(ExpressionTree tree) {
     ExpressionTree variable = ExpressionsHelper.skipParentheses(tree);
