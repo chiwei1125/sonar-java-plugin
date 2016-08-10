@@ -93,9 +93,9 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
         if (expression.is(ASSIGNMENT_KINDS)) {
           addAssignment(((AssignmentExpressionTree) expression).variable());
         }
-      } else {
-        leaveCompilationUnit();
       }
+    } else {
+        leaveCompilationUnit();
     }
   }
 
@@ -112,14 +112,14 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
 
   private void checkClassFields(ClassTree classTree) {
     for (Tree member : classTree.members()) {
-      if (member.is(Tree.Kind.VARIABLE)) {
+      if (member.is(Tree.Kind.VARIABLE) && hasSemantic()) {
         checkIfUnused((VariableTree) member);
       }
     }
   }
 
   public void checkIfUnused(VariableTree tree) {
-    if (tree.modifiers().annotations().isEmpty() && hasSemantic()) {
+    if (tree.modifiers().annotations().isEmpty()) {
       Symbol symbol = tree.symbol();
       String name = symbol.name();
       if (symbol.isPrivate() && !"serialVersionUID".equals(name) && symbol.usages().size() == assignments.get(symbol).size()) {
