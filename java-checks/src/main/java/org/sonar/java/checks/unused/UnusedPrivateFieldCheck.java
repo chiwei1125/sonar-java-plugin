@@ -27,7 +27,9 @@ import com.google.common.collect.Lists;
 import org.sonar.check.Rule;
 import org.sonar.java.checks.helpers.ExpressionsHelper;
 import org.sonar.java.model.ModifiersUtils;
+import org.sonar.java.resolve.SemanticModel;
 import org.sonar.plugins.java.api.IssuableSubscriptionVisitor;
+import org.sonar.plugins.java.api.JavaFileScannerContext;
 import org.sonar.plugins.java.api.semantic.Symbol;
 import org.sonar.plugins.java.api.tree.AssignmentExpressionTree;
 import org.sonar.plugins.java.api.tree.ClassTree;
@@ -63,6 +65,13 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
   private List<ClassTree> classes = Lists.newArrayList();
   private ListMultimap<Symbol, IdentifierTree> assignments = ArrayListMultimap.create();
   private boolean hasNativeMethod = false;
+  private SemanticModel semanticModel;
+
+  @Override
+  public void scanFile(JavaFileScannerContext context) {
+    semanticModel = (SemanticModel) context.getSemanticModel();
+    super.scanFile(context);
+  }
 
   @Override
   public List<Kind> nodesToVisit() {
