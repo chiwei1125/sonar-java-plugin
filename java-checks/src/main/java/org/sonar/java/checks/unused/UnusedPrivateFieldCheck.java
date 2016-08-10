@@ -119,7 +119,7 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
   }
 
   public void checkIfUnused(VariableTree tree) {
-    if (tree.modifiers().annotations().isEmpty()) {
+    if (tree.modifiers().annotations().isEmpty() && hasSemantic()) {
       Symbol symbol = tree.symbol();
       String name = symbol.name();
       if (symbol.isPrivate() && !"serialVersionUID".equals(name) && symbol.usages().size() == assignments.get(symbol).size()) {
