@@ -79,7 +79,7 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
   }
 
   @Override
-  public void leaveNode(Tree tree) {
+  public void visitNode(Tree tree) {
     if (hasSemantic()) {
       if (tree.is(Tree.Kind.METHOD)) {
         MethodTree method = (MethodTree) tree;
@@ -93,9 +93,9 @@ public class UnusedPrivateFieldCheck extends IssuableSubscriptionVisitor {
         if (expression.is(ASSIGNMENT_KINDS)) {
           addAssignment(((AssignmentExpressionTree) expression).variable());
         }
-      }
-    } else {
+      } else {
         leaveCompilationUnit();
+      }
     }
   }
 
