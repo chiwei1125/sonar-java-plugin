@@ -47,16 +47,24 @@ public class LombokFilter extends BaseTreeVisitorIssueFilter {
     .add("lombok.Setter")
     .add("Setter")
     .add("lombok.Builder")
+    .add("Builder")
     .add("lombok.ToString")
+    .add("ToString")
     .add("lombok.AllArgsConstructor")
+    .add("AllArgsConstructor")
     .add("lombok.NoArgsConstructor")
+    .add("NoArgsConstructor")
     .add("lombok.RequiredArgsConstructor")
+    .add("RequiredArgsConstructor")
     .build();
 
   private static final List<String> GENERATE_EQUALS = ImmutableList.<String>builder()
     .add("lombok.EqualsAndHashCode")
+    .add("EqualsAndHashCode")
     .add("lombok.Data")
+    .add("Data")
     .add("lombok.Value")
+    .add("Value")
     .build();
 
   private static final List<String> GENERATE_PRIVATE_CONSTRUCTOR = ImmutableList.<String>builder()
